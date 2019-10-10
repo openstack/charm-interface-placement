@@ -1,0 +1,14 @@
+name: placement
+summary: Interface for integrating nova-cloud-controller with placement
+maintainer: OpenStack Charmers <openstack-charmers@lists.ubuntu.com>
+version: 1
+repo: https://opendev.org/openstack/charm-interface-placement
+ignore:
+  - 'unit_tests'
+  - '.stestr.conf'
+  - 'test-requirements.txt'
+  - 'tox.ini'
+  - '.gitignore'
+  - '.travis.yml'
+  - '.zuul.yaml'
+  - '.tox'
